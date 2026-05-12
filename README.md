@@ -1,5 +1,6 @@
-# ai-top-utility
-Hardware sync and AI Model Training
+# ai-top-utility - GIGABYTE AI TOP Utility 4.2.1 PC
+
+- Hardware sync and AI Model Training
 
 ## Step 1: Download the newest BIOSversion of your AI TOP Motherboards via product page
 
