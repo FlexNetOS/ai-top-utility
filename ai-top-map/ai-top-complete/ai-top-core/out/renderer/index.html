@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>GIGABYTE.AI Finetune Utility</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+
+
+    <!-- meta Content-Security-Policy 加入http://10.8.22.45:8080 API網址 -->
+
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' http://10.8.22.45:8081 ws://10.8.22.45:8081/ws  http://localhost:8081 ws://localhost:8081/ws;  script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:"
+    /> -->
+
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' *; connect-src 'self' * file:; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' http://localhost:8080 http://localhost:3000 data:"
+    />
+
+
+
+
+    <script type="module" crossorigin src="./assets/index-B7H01Y_B.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Bm3UdnVA.css">
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+
+</html>

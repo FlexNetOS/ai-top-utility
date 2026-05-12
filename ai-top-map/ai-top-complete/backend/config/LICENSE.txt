@@ -1,0 +1,87 @@
+End-User Software License Agreement ("EULA")
+READ THE FOLLOWING LICENCE AGREEMENT CAREFULLY. IT CONTAINS IMPORTANT INFORMATION ABOUT YOUR RIGHTS AND OBLIGATIONS, AS WELL AS LIMITATIONS AND EXCLUSIONS THAT MAY APPLY TO YOU. THIS DOCUMENT CONTAINS A DISPUTE RESOLUTION CLAUSE. BY CLICKING ON THE "ACCEPT" BUTTON, YOU ARE CONSENTING TO BE BOUND BY AND ARE BECOMING A PARTY TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, CLICK THE "DO NOT ACCEPT" BUTTON OR DO NOT USE THIS APPLICATION.
+
+1. DEFINITIONS
+1.1. Definitions. Capitalized terms in this Agreement will have the following meanings:
+    1. "Agreement" or "EULA" means this End-User Software License Agreement between Us and You;
+    2. "Licensed Software" means the [AI TOP Utility] tool pre-loaded on your device or downloaded from our website, App Center or Control Center and being provided to You under this Agreement, including services provided in connection with such software;
+    3. "Sublicensed Software" means certain third party owned software components being provided under this Agreement, that are required to properly enable or operate the Licensed Software;
+    4. “Third Party Generative AI” means certain third party owned/licensed generative AI applications that you may interact with while using the Licensed Software.
+    5. "You" or "Your" means the person or company who is being licensed to use the Licensor software in association with the Usage Agreement ("Usage Agreement").
+    6. "We", "Our" and "Us" means GIGABYTE Technology Co., Ltd.. (“GIGABYTE”).
+
+2. SOFTWARE LICENCE RESTRICTIONS
+2.1 Grant. We grant You a limited, personal, non-commercial, non-exclusive license to use the Licensed Software solely in accordance with its intended purpose.
+
+2.2 Restrictions. You will use the Licensed Software only for purposes set forth herein, and, further, You expressly agree that You DO NOT have rights to:
+    1. (a) own title, or transfer title to the Licensed Software to another party;
+    2. (b) distribute, or sublicense or otherwise provide copies or any rights in relation to the Licensed Software to any third party;
+    3. (c) pledge, hypothecate, alienate or otherwise encumber the Licensed Software to any third party;
+    4. (d) use the Licensed Software to rent, lease or otherwise provide location-enabled telecommunication or information services to Your customers, including, without limitation, data processing, hosting, outsourcing, service bureau or online application services (ASP) offerings; or
+    5. (e) modify, enhance, reverse-engineer, decompile, disassemble or create substantially derived forms of the Licensed Software.
+
+2.3 Enforcement of Restrictions. We will have the right to inspect and enforce the restrictions and covenants contained in this Agreement at Your sole expense, and You hereby agree to promptly notify Us of any known violations of such restrictions.
+
+2.4 Source code. Software may contain source code that, unless expressly licensed for other purposes, is provided solely for reference purposes pursuant to the terms of this Agreement. Source code may not be redistributed unless expressly provided for in this Agreement.
+
+2.5 Automatic Update Feature. From time to time, We may automatically update or otherwise modify the Licensed Software, including, but not limited to, for purposes of enhancement of security functions, error correction and improvement of functions, at such time as you interact with our or third parties' servers, or otherwise. Such updates or modifications may delete or change the nature of features or other aspects of the Licensed Software, including, but not limited to, functions you may rely upon. You acknowledge and agree that such activities may occur at Our sole discretion and that We may condition continued use of the Licensed Software upon Your complete installation or acceptance of such update or modifications. Any updates/modifications shall be deemed to be, and shall constitute part of, the Licensed Software for purposes of this EULA. By acceptance of this EULA, you consent to such update/modification.
+
+2.6 Third party code. Additional copyright notices and license terms applicable to portions of the Software are set forth in the Default Install Folder. In addition to any terms and conditions of any third party opensource/freeware license identified in the Default Install Folder, the disclaimer of warranty and limitation of liability provisions in paragraphs 5 and 6 of the Agreement shall apply to all software in this distribution. The Software may be accompanied by third party created software that is licensed under one or more of the Free Open Source Software licenses as listed under www.opensource.org/licenses. Such Free Open Source Software is provided to you solely under the terms of the respective license agreement or copyright notice accompanying it or in the FOSS licenses file accompanying the Software. The terms of this EULA do NOT apply to such Free Open Source Software.
+
+2.7 Export Compliance.  The Licensed Software and any related technical data, software, or documentation (collectively, the "Tool") are subject to U.S. and international export control laws and regulations, including but not limited to the Export Administration Regulations (EAR) administered by the U.S. Department of Commerce. By using the Tool, you agree to comply with all applicable export and re-export control laws and regulations, including those of the United States and any other relevant jurisdiction.
+You represent and warrant that:
+    1. You are not located in, under the control of, or a national or resident of any country to which the United States has embargoed goods or services (currently including, but not limited to, Cuba, Iran, North Korea, Syria, and the Crimea, Donetsk, and Luhansk regions of Ukraine).
+    2. You are not identified on any U.S. government list of prohibited or restricted parties, including the Treasury Department's Specially Designated Nationals List or the U.S. Department of Commerce Denied Persons List or Entity List.
+    3. You will not use the Tool for any purposes prohibited by U.S. law, including, without limitation, the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons.
+    4. You will not, directly or indirectly, export, re-export, transfer, or release the Tool, or any direct product thereof, to any destination, entity, or person, or for any end-use prohibited by applicable export control laws, without obtaining prior authorization from the appropriate government authorities.
+    5. You understand that the open-source nature of certain AI models supported by this Tool does not exempt their use, export, or re-export from applicable export control laws and regulations. You are solely responsible for ensuring that your use of the Tool and any AI models, whether open-source or otherwise, complies with all relevant export control laws.
+
+Any breach of this Export Compliance Clause shall constitute a material breach of this EULA and may result in immediate termination of your license to use the Tool. You agree to indemnify and hold harmless the Licensor from any claims, damages, or penalties arising from your failure to comply with applicable export control laws and regulations.
+
+3. COPYRIGHT AND MARKS
+3.1 Copyright. The Licensed Software, including any documentation, media, packaging and illustrations, is copyrighted and constitutes Our valuable property. You agree that all physical manifestations of the Licensed Software will display Our copyright notice in a conspicuous manner. The Licensed Software is protected under Taiwan copyright laws and international treaty provisions. You will include the following notice on any printed, electronic, online or packaged version of the Licensed Software, in any form whatsoever: "Copyright © [2024] Licensor GIGABYTE Technology Co., Ltd. All rights reserved."
+
+3.2 Trade-marks. Certain logos, product names and trade-marks owned by Us may be contained within the printed materials and electronic manifestations of the Licensed Software. You will have no right to use such marks unless we have provided You written permission.
+
+4. TITLE
+4.1 Title. You acknowledge that the Licensed Software, including any associated written materials and other documentation provided under this Agreement, belongs exclusively to Us. Unencumbered title to the Licensed Software will, at all times, remain with Us. You agree to protect the Licensed Software from unauthorized use, reproduction, distribution or publication in electronic or physical form.
+
+5. WARRANTY AND DISCLAIMERS
+5.1 Warranty. We warrant that We are the owner of the Licensed Software, and have the right and authority to grant the license to the Licensed Software. We do not warrant, guarantee, accept any condition or make any representation that the Licensed Software will meet Your requirements or that the use of the Licensed Software will be uninterrupted or error-free. No other oral or written information provided by Us will create a warranty or in any way increase Our liability, and You will not rely on such information.
+
+5.2 AI Intellectual Property Risks. There are risks associated with using Third-Party Generative AI and its output, including but not limited to, the risk that such output infringes the intellectual property rights of others. Also, the Third-Party AI Generator’s output may not be eligible for copyright protection under applicable laws, including those of the United States. You are solely responsible for evaluating and assuming all potential intellectual property risks that may result from your use of the Third-Party Generative AI or its output.
+
+5.3 GENERAL DISCLAIMER. WE MAKE NO EXPRESS REPRESENTATIONS OR WARRANTIES, OR ACCEPT ANY CONDITIONS EXCEPT THOSE EXPRESSLY STATED IN SECTIONS 5.1 ABOVE. WE DISCLAIM ALL OTHER REPRESENTATIONS, WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OR CONDITIONS OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. SOME PROVINCES DO NOT PERMIT THE EXCLUSION OF CERTAIN IMPLIED WARRANTIES OR CONDITIONS. THEREFORE, THE FOREGOING DISCLAIMERS MAY NOT APPLY TO YOU.
+
+6. LIMITATION OF LIABILITY AND REMEDIES
+6.1 LIMITATION OF LIABILITY. THE ENTIRE RISK ARISING OUT OF THE USE AND/OR PERFORMANCE OF THE LICENSED SOFTWARE REMAINS WITH YOU. IN NO EVENT WILL WE BE LIABLE FOR ANY LOSSES OR DAMAGES INCURRED BY YOU, WHETHER DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL, INCLUDING LOST OR ANTICIPATED PROFITS, SAVINGS, INTERRUPTION TO BUSINESS, LOSS OF BUSINESS OPPORTUNITIES, LOSS OF BUSINESS INFORMATION, THE COST OF RECOVERING SUCH LOST INFORMATION, THE COST OF SUBSTITUTE INTELLECTUAL PROPERTY OR ANY OTHER PECUNIARY LOSS ARISING FROM THE USE OF, OR THE INABILITY TO USE, THE LICENSED SOFTWARE REGARDLESS OF WHETHER YOU HAVE ADVISED US OR WE HAVE ADVISED YOU OF THE POSSIBILITY OF SUCH DAMAGES. SOME PROVINCES DO NOT ALLOW THE EXCLUSION OF LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES SO THE ABOVE EXCLUSIONS MAY NOT APPLY.
+
+6.2 Indemnity. You agree to indemnify and hold GIGABYTE and its parent, subsidiaries, affiliates, partners and licensors, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third party due to your violation of any law or the rights of a third party via use of the Licensed Software and/or Third-Party AI Generator or its output.
+
+7. TERM
+7.1 Term. This EULA is effective until terminated. We may terminate this EULA immediately if You fail to comply with its terms. In addition, upon termination You will have no recourse against Us, our affiliates or Third Party Licensors for your inability to use the Licensed Software or the accompanying documentation.
+
+8. GOVERNING LAW; DISPUTE RESOLUTION; CLASS ACTION WAIVER
+8.1 Governing Law and Jurisdiction. For residents of countries/territories other than the US, EEA/UK/Switzerland: this EULA is governed by and construed under the laws of Republic of China (Taiwan) and any dispute arising from or in connection with this Agreement shall be settled by arbitration in Taipei in accordance with the Taiwan Arbitration Act and the then-governing Arbitration Rules of the Chinese Arbitration Association, Taipei.  
+8.2. For residents in the EEA/UK/Switzerland: 
+    a) This EULA shall be governed by, and construed under, the laws of your country of residence without regard to conflict of laws rules. The exclusive jurisdiction for all disputes will be the competent courts of your country of habitual residence. The European Commission has an online dispute resolution platform: http://ec.europa.eu/consumers/odr/. We will not participate in dispute settlement proceedings before a consumer arbitration board or scheme.
+
+8.3 For US residents: 
+    a) This EULA is governed by and construed in accordance with the laws of the State of California without regard to any conflict of law principles to the contrary.
+    b) Dispute Resolution. Any dispute, controversy, or claim arising out of or relating to this EULA will be resolved exclusively and finally by arbitration conducted by three neutral arbitrators in accordance with the procedures of the California Arbitration Law and related enforcement rules. In such cases, the arbitration will be limited solely to the dispute between you and Us.  You agree that the arbitration, or any portion of it, will not be consolidated with any other arbitration and will not be conducted on a class-wide or class action basis.
+
+9. GENERAL
+9.1 Headings. The Article and paragraph headings used herein are for convenience only and are not a part of this Agreement and will not be used in construing it.
+
+9.2 Entire Agreement. This Agreement constitutes the entire agreement of the Parties, and no amendment to the terms of this Agreement will be effective unless in writing and signed by both parties hereto.
+
+9.3 Equitable Relief. You agree that any breach of this Agreement by You would cause irreparable damage, and that, in event of such breach, in addition to any and all remedies at law, We will have the right to an injunction, specific performance or other equitable relief to prevent the continuous violations of the terms of this Agreement.
+
+9.4 Force Majeure. Notwithstanding anything herein to the contrary, We shall not be liable for any delay or failure in performance caused by circumstances beyond Our reasonable control.
+
+9.5 Relationship of the Parties. This Agreement does not constitute a partnership or joint venture, and nothing herein contained is intended to constitute, nor will it be construed to constitute, such a partnership or joint venture. Except as expressly provided in this Agreement, neither We nor You will have any power or authority to act in the name or on behalf of the other party, or to bind the other party to any legal agreement.
+
+9.6 Severability. The provisions of this Agreement are to be considered separately, and if any provision hereof should be found by any court or competent jurisdiction to be invalid or unenforceable, this Agreement will be deemed to have effect as if such provision were.
+
+9.7 Revisions to this Agreement. We may add to, change, or remove any part, term, or condition of this EULA, including but not limited to as it applies to the Licensed Software at any time without prior notice or liability to You. Any such additions, changes, or removals shall apply the moment they are published on the GIGABYTE EULA PAGE. By continuing to use the Licensed Software after so posted, you are indicating your acceptance thereto.
+

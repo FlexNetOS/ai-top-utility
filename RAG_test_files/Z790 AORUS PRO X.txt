@@ -1,0 +1,220 @@
+This is the specification (spec) of Z790 AORUS PRO X board
+motherboard name : Z790 AORUS PRO X
+These are the CPU summary 
+LGA1700 socket: Support for the 14th, 13th, and 12th Generation Intel® Core™, Pentium® Gold and Celeron® Processors*
+L3 cache varies with CPU
+* Please refer to "CPU Support List" for more information.
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Chipset summary 
+Intel® Z790 Express Chipset
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Memory summary (maximum / max. memory) 
+Support for DDR5  8266(O.C) / 8200(O.C) / 8000(O.C) / 7950(O.C) / 7900(O.C) / 7800(O.C) / 7600(O.C.) / 7400(O.C.) / 7200(O.C.) / 7000(O.C.) / 6800(O.C.) / 6600(O.C.) / 6400(O.C.) / 6200(O.C.) / 6000(O.C.) / 5800(O.C.) / 5600(O.C.) / 5400(O.C.) / 5200(O.C.) / 4800 / 4000 MT/s memory modules (maximum memory / max. memory) 
+4 x DDR5 DIMM sockets supporting up to 192 GB (48 GB single DIMM capacity) of system memory Dual channel memory architecture
+Support for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules (operate in non-ECC mode)
+Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules
+Support for Extreme Memory Profile (XMP) memory modules
+
+(The CPU and memory configuration may affect the supported memory types, data rate (speed), and number of DRAM modules, please refer to "Memory Support List" for more information.)
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Onboard Graphics summary 
+Integrated Graphics Processor-Intel® HD Graphics support:
+- 1 x USB Type-A (type c)® port, supporting USB 3.2 Gen 2 and DisplayPort video outputs and a maximum resolution of 4096x2304@60 Hz
+* Support for drawing tablets and 20V@3A of power delivery.
+* Support for DisplayPort 1.2 version and HDR.
+- 1 x USB Type-A (type c)® port, supporting USB 2.0 and DisplayPort video outputs and a maximum resolution of 1920x1080@30 Hz
+- 1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz
+
+* Support for HDMI 2.1 version and HDCP 2.3.
+** Support native HDMI 2.1 TMDS compatible ports.
+(Graphics specifications may vary depending on CPU or graphics card support.)
+Z790 AORUS PRO X totally have 2 DisplayPort
+Z790 AORUS PRO X totally have 1 HDMI
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Audio summary 
+Realtek® ALC1220-VB CODEC
+*The back panel line out jack supports DSD audio.
+High Definition Audio
+2/4/5.1/7.1-channel
+* You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings.
+Support for S/PDIF Out
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the LAN summary 
+Realtek® 5GbE LAN chip (5 Gbps/2.5 Gbps/1 Gbps/100 Mbps)
+-----------------------
+motherboard name : Z790 AORUS PRO X
+The Wireless Communication module (Wi-Fi, wifi):
+WIFI & Wi-Fi & wifi : MediaTek Wi-Fi 7 MT7927, RZ738 (For PCB rev. 1.0)
+- 802.11a, b, g, n, ac, ax, be, supporting 2.4/5/6 GHz carrier frequency bands
+- BLUETOOTH 5.3
+- Support for 11be 320MHz wireless standard
+
+Intel® Wi-Fi 7 BE200 (For PCB rev. 1.1)
+- 802.11a, b, g, n, ac, ax, be, supporting 2.4/5/6 GHz carrier frequency bands
+- BLUETOOTH 5.3
+- Support for 11be 320MHz wireless standard
+
+Qualcomm® Wi-Fi 7 QCNCM865 (For PCB rev. 1.2)
+- 802.11a, b, g, n, ac, ax, be, supporting 2.4/5/6 GHz carrier frequency bands
+- BLUETOOTH 5.3
+- Support for 11be 320MHz wireless standard
+(Actual data rate may vary depending on environment and equipment.)
+
+Note:
+Wi-Fi 7 features require Windows 11 SV3 to function properly. (There is no support driver for Windows 10)
+Wi-Fi 7 channels on 6GHz band availability depends on individual country's regulations.
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Expansion Slots summary 
+CPU:
+- 1 x PCI Express x16 slot, supporting PCIe 5.0 and running at x16 (PCIEX16)
+
+* The PCIEX16 slot shares bandwidth with the M2C_CPU connectors. The PCIEX16 slot operates at up to x8 mode when a device is installed in the M2C_CPU connector.
+* The PCIEX16 slot can only support a graphics card or an NVMe SSD. If only one graphics card is to be installed, be sure to install it in the PCIEX16 slot.
+Chipset:
+- 1 x PCI Express x16 slot, supporting PCIe 4.0 and running at x4 (PCIEX4_1)
+- 1 x PCI Express x16 slot, supporting PCIe 3.0 and running at x4 (PCIEX4_2)
+Z790 AORUS PRO X totally have 3 PCI Express
+Z790 AORUS PRO X totally have 3 PCI Express X16
+Z790 AORUS PRO X totally have 0 PCI Express X1 
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Storage Interface summary 
+M.2 connector (M.2 slots & m.2 slots support SSD): 
+CPU:
+- 1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 25110/2580 PCIe 5.0 x4/x2 SSD support) (M2C_CPU)
+- 1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 22110/2280 PCIe 4.0 x4/x2 SSD support) (M2A_CPU)
+Chipset:
+- 1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 22110/2280 PCIe 4.0 x4/x2 SSD support) (M2Q_SB)
+- 1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 2280 PCIe 4.0 x4/x2 SSD support) (M2P_SB)
+- 1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 2280 SATA and PCIe 4.0 x4/x2 SSD support) (M2M_SB)
+- 4 x SATA 6Gb/s connectors
+RAID 0, RAID 1, RAID 5, and RAID 10 support for NVMe SSD storage devices
+RAID 0, RAID 1, RAID 5, and RAID 10 support for SATA storage devices
+Z790 AORUS PRO X totally have 5 M.2 connector (M.2 slots & m.2 slots) 
+Z790 AORUS PRO X totally have 4 SATA connector
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the USB summary 
+Chipset:
+- 2 x USB Type-A (type c)® ports, with USB 3.2 Gen 2x2 support (1 port on the back panel, 1 port available through the internal USB header)
+- 1 x USB Type-A (type c)® port on the back panel, with USB 3.2 Gen 2 support
+- 1 x USB Type-A (type c)® port onboard, with USB 2.0 support (Only available with the Intel® HD Graphics Processors.)
+- 2 x USB 3.2 Gen 2 Type-A (type a) ports (red) on the back panel
+- 2 x USB 3.2 Gen 1 ports available through the internal USB header
+- 2 x USB 2.0/1.1 ports on the back panel
+Chipset+USB 3.2 Gen 1 Hub:
+- 4 x USB 3.2 Gen 1 ports on the back panel
+Chipset+USB 2.0 Hub:
+- 4 x USB 2.0/1.1 ports available through the internal USB headers
+Z790 AORUS PRO X totally have 18 USB
+Z790 AORUS PRO X totally have 6 USB 3.2 Gen 1
+Z790 AORUS PRO X totally have 5 USB 3.2 Gen 2
+Z790 AORUS PRO X totally have 0 USB 3.1 Gen 1
+Z790 AORUS PRO X totally have 0 USB 3.1 Gen 2
+Z790 AORUS PRO X totally have 6 USB 2.0/1.1
+Z790 AORUS PRO X totally have 2 Type-A (type a)
+Z790 AORUS PRO X totally have 4 Type-A (type c)
+Z790 AORUS PRO X totally have 0 USB 3.2 Gen 1 Type-A (type a) 
+Z790 AORUS PRO X totally have 0 USB 3.2 Gen 1 Type-A (type c) 
+Z790 AORUS PRO X totally have 2 USB 3.2 Gen 2 Type-A (type a) 
+Z790 AORUS PRO X totally have 3 USB 3.2 Gen 2 Type-A (type c) 
+Z790 AORUS PRO X totally have 0 USB 3.1 Gen 1 Type-A (type a) 
+Z790 AORUS PRO X totally have 0 USB 3.1 Gen 1 Type-A (type c) 
+Z790 AORUS PRO X totally have 0 USB 3.1 Gen 2 Type-A (type a) 
+Z790 AORUS PRO X totally have 0 USB 3.1 Gen 2 Type-A (type c) 
+Z790 AORUS PRO X totally have 0 USB 2.0/1.1 Type-A (type a) 
+Z790 AORUS PRO X totally have 0 USB 2.0/1.1 Type-A (type c) 
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Internal I/O Connectors summary 
+1 x 24-pin ATX main power connector
+2 x 8-pin ATX 12V power connectors
+1 x CPU fan header
+1 x CPU fan/water cooling pump header
+4 x system fan headers
+2 x system fan/water cooling pump headers
+3 x addressable RGB Gen2 LED strip headers
+1 x RGB LED strip header
+5 x M.2 Socket 3 connectors
+4 x SATA 6Gb/s connectors
+1 x front panel header
+1 x front panel audio header
+1 x USB Type-A (type c)® header, with USB 3.2 Gen 2x2 support
+1 x USB Type-A (type c)® port (DisplayPort), with USB 2.0 support (Only available with the Intel® HD Graphics Processors.)
+1 x USB 3.2 Gen 1 header
+2 x USB 2.0/1.1 headers
+1 x noise detection header
+2 x Thunderbolt™ add-in card connectors
+1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0/ GC-TPM2.0 SPI V2 module only)
+1 x Q-Flash Plus button
+1 x reset button
+1 x reset jumper
+2 x temperature sensor headers
+1 x Clear CMOS jumper
+Z790 AORUS PRO X totally have 8 fan header
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Back Panel Connectors summary 
+2 x USB 2.0/1.1 ports
+2 x SMA antenna connectors (2T2R)
+4 x USB 3.2 Gen 1 ports
+1 x DisplayPort In port
+1 x HDMI port
+2 x USB 3.2 Gen 2 Type-A (type a) ports (red)
+1 x USB Type-A (type c)® port, with USB 3.2 Gen 2x2 support
+1 x USB Type-A (type c)® port (DisplayPort), with USB 3.2 Gen 2 support
+1 x RJ-45 port
+1 x optical S/PDIF Out connector
+2 x audio jacks
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the I/O Controller summary 
+iTE® I/O Controller Chip
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the H/W Monitoring summary 
+Voltage detection
+Temperature detection
+Fan speed detection
+Water cooling flow rate detection
+Fan fail warning
+Fan speed control
+* Whether the fan (pump) speed control function is supported will depend on the fan (pump) you install.
+Noise detection
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the BIOS summary 
+1 x 256 Mbit flash
+Use of licensed AMI UEFI BIOS
+PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Unique Features summary 
+Support for GIGABYTE Control Center (GCC)
+* Available applications in GCC may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications.
+Support for Q-Flash
+Support for Q-Flash Plus
+Support for Smart Backup
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Bundled Software summary 
+Norton® Internet Security (OEM version)
+LAN bandwidth management software
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Operating System summary 
+Support for Windows 11 64-bit
+-----------------------
+motherboard name : Z790 AORUS PRO X
+These are the Form Factor (form factor) summary 
+The Form Factor (form factor) on Z790 AORUS PRO X:
+The Form Factor (form factor) on Z790 AORUS PRO X:
+ATX Form Factor (form factor) is 30.5cm x 24.4cm
+-----------------------
+motherboard name : Z790 AORUS PRO X

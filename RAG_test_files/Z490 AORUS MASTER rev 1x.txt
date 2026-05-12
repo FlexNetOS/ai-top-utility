@@ -1,0 +1,227 @@
+This is the specification (spec) of Z490 AORUS MASTER  (rev. 1.x) board
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the CPU summary 
+Support for 10th Generation Intel® Core™ i9 processors/Intel® Core™ i7 processors/Intel® Core™ i5 processors/Intel® Core™ i3 processors/Intel® Pentium® processors/Intel® Celeron® processors in the LGA1200 package
+L3 cache varies with CPU
+
+(Please refer to "CPU Support List" for more information.)
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Chipset summary 
+Intel® Z490 Express Chipset
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Memory summary (maximum / max. memory) 
+Intel® Core™ i9/i7 processors: (maximum memory / max. memory) 
+Support for DDR4 5000(O.C.)/4933(O.C.)/4800(O.C.)/ 4700(O.C.)/ 4600(O.C.)/ 4500(O.C.)/ 4400(O.C.)/ 4300(O.C.)/4266(O.C.) / 4133(O.C.) / 4000(O.C.) / 3866(O.C.) / 3800(O.C.) / 3733(O.C.) / 3666(O.C.) / 3600(O.C.) / 3466(O.C.) / 3400(O.C.) / 3333(O.C.) / 3300(O.C.) / 3200(O.C.) / 3000(O.C.)  / 2933 / 2800 / 2666 / 2400 / 2133 MHz
+Intel® Core™ i5/i3/Pentium®/Celeron® processors:
+Support for DDR4 2666/2400/2133 MHz memory modules
+4 x DDR4 DIMM sockets supporting up to 128 GB (32 GB single DIMM capacity) of system memory
+Dual channel memory architecture
+Support for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules (operate in non-ECC mode)
+Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules
+Support for Extreme Memory Profile (XMP) memory modules
+
+(Please refer to "Memory Support List" for more information.)
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Onboard Graphics summary 
+Integrated Graphics Processor-Intel® HD Graphics support:
+
+1 x HDMI port, supporting a maximum resolution of 4096x2160@30 Hz
+* Support for HDMI 1.4 version and HDCP 2.3.
+
+Maximum shared memory (for graphic) of 512 MB
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 DisplayPort
+Z490 AORUS MASTER  (rev. 1.x) totally have 1 HDMI
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Audio summary 
+Realtek® ALC1220-VB codec
+* The front panel line out jack supports DSD audio.
+ESS ES9118EQ DAC chip
+Support for DTS:X® Ultra
+High Definition Audio
+2/4/5.1/7.1-channel
+Support for S/PDIF Out
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the LAN summary 
+Intel® 2.5GbE LAN chip (2.5 Gbit/1 Gbit/100 Mbit)
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+The Wireless Communication module (Wi-Fi, wifi):
+WIFI & Wi-Fi & wifi : Intel® Wi-Fi 6 AX201
+
+WIFI a, b, g, n, ac with wave 2 features, ax, supporting 2.4/5 GHz Dual-Band
+BLUETOOTH 5.0
+Support for 11ax 160MHz wireless standard and up to 2.4 Gbps data rate
+* Actual data rate may vary depending on environment and equipment.
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Expansion Slots summary 
+1 x PCI Express x16 slot, running at x16 (PCIEX16)
+* For optimum performance, if only one PCI Express graphics card is to be installed, be sure to install it in the PCIEX16 slot.
+1 x PCI Express x16 slot, running at x8 (PCIEX8)
+* The PCIEX8 slot shares bandwidth with the PCIEX16 slot. When the PCIEX8 slot is populated, the PCIEX16 slot operates at up to x8 mode.
+1 x PCI Express x16 slot, running at x4 (PCIEX4)
+
+(All of the PCI Express slots conform to PCI Express 3.0 standard.)
+Supports up to ASPM L1.2 power management protocols.
+Z490 AORUS MASTER  (rev. 1.x) totally have 3 PCI Express
+Z490 AORUS MASTER  (rev. 1.x) totally have 3 PCI Express X16
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 PCI Express X1 
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Multi-Graphics (onboard graphics) Technology summary 
+The Multi-Graphics (onboard graphics) on Z490 AORUS MASTER  (rev. 1.x):
+Support for NVIDIA® Quad-GPU SLI™ and 2-Way NVIDIA® SLI™ technologies
+Support for AMD Quad-GPU CrossFire™ and 2-Way AMD CrossFire™ technologies
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Storage Interface summary 
+M.2 connector (M.2 slots & m.2 slots support SSD): 
+1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 2242/2260/2280/22110 PCIe x4/x2 SSD support) (M2P_SB)
+1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 2242/2260/2280/22110 SATA and PCIe x4/x2 SSD support) (M2A_CPU)
+1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 2242/2260/2280/22110 SATA and PCIe x4/x2 SSD support) (M2M_SB)
+6 x SATA 6Gb/s connectors
+Support for RAID 0, RAID 1, RAID 5, and RAID 10
+* Refer to "1-9 Internal Connectors," for the installation notices for the M.2 and SATA connectors.
+
+Intel® Optane™ Memory Ready
+M.2 connector (M.2 slots & m.2 slots) s support up to ASPM L1.2 PCIe power management protocols.
+Z490 AORUS MASTER  (rev. 1.x) totally have 3 M.2 connector (M.2 slots & m.2 slots) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 6 SATA connector
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the USB summary 
+Chipset:
+
+2 x USB Type-A (type c)™ ports, with USB 3.2 Gen 2 support (1 port on the back panel, 1 port available through the internal USB header)
+3 x USB 3.2 Gen 2 Type-A (type a) ports (red) on the back panel
+4 x USB 3.2 Gen 1 ports (2 ports on the back panel, 2 ports available through the internal USB header)
+
+
+Chipset+2 USB 2.0 Hubs:
+
+8 x USB 2.0/1.1 ports (4 ports on the back panel, 4 ports available through the internal USB headers)
+Z490 AORUS MASTER  (rev. 1.x) totally have 17 USB
+Z490 AORUS MASTER  (rev. 1.x) totally have 4 USB 3.2 Gen 1
+Z490 AORUS MASTER  (rev. 1.x) totally have 5 USB 3.2 Gen 2
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 3.1 Gen 1
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 3.1 Gen 2
+Z490 AORUS MASTER  (rev. 1.x) totally have 8 USB 2.0/1.1
+Z490 AORUS MASTER  (rev. 1.x) totally have 3 Type-A (type a)
+Z490 AORUS MASTER  (rev. 1.x) totally have 2 Type-A (type c)
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 3.2 Gen 1 Type-A (type a) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 3.2 Gen 1 Type-A (type c) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 3 USB 3.2 Gen 2 Type-A (type a) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 2 USB 3.2 Gen 2 Type-A (type c) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 3.1 Gen 1 Type-A (type a) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 3.1 Gen 1 Type-A (type c) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 3.1 Gen 2 Type-A (type a) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 3.1 Gen 2 Type-A (type c) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 2.0/1.1 Type-A (type a) 
+Z490 AORUS MASTER  (rev. 1.x) totally have 0 USB 2.0/1.1 Type-A (type c) 
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Internal I/O Connectors summary 
+1 x 24-pin ATX main power connector
+2 x 8-pin ATX 12V power connectors
+1 x CPU fan header
+1 x water cooling CPU fan header
+4 x system fan headers
+2 x system fan/water cooling pump headers
+2 x addressable LED strip headers
+2 x RGB LED strip headers
+3 x M.2 Socket 3 connectors
+6 x SATA 6Gb/s connectors
+1 x front panel header
+1 x front panel audio header
+1 x USB Type-A (type c)™ header, with USB 3.2 Gen 2 support
+1 x USB 3.2 Gen 1 header
+2 x USB 2.0/1.1 headers
+1 x noise detection header
+2 x Thunderbolt™ add-in card connectors
+1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0 module only)
+1 x power button
+1 x reset button
+2 x temperature sensor headers
+1 x Clear CMOS jumper
+2 x BIOS switches
+Z490 AORUS MASTER  (rev. 1.x) totally have 8 fan header
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Back Panel Connectors summary 
+1 x Q-Flash Plus button
+1 x Clear CMOS button
+2 x SMA antenna connectors (2T2R)
+1 x HDMI port
+1 x USB Type-A (type c)™ port, with USB 3.2 Gen 2 support
+3 x USB 3.2 Gen 2 Type-A (type a) ports (red)
+2 x USB 3.2 Gen 1 ports
+4 x USB 2.0/1.1 ports
+1 x RJ-45 port
+1 x optical S/PDIF Out connector
+5 x audio jacks
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the I/O Controller summary 
+iTE® I/O Controller Chip
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the H/W Monitoring summary 
+Voltage detection
+Temperature detection
+Fan speed detection
+Water cooling flow rate detection
+Overheating warning
+Fan fail warning
+Fan speed control
+* Whether the fan (pump) speed control function is supported will depend on the fan (pump) you install.
+Noise detection
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the BIOS summary 
+2 x 256 Mbit flash
+Use of licensed AMI UEFI BIOS
+Support for DualBIOS™
+PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Unique Features summary 
+Support for APP Center
+* Available applications in APP Center may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications.
+@BIOS
+EasyTune
+Fast Boot
+Game Boost
+RGB Fusion
+Smart Backup
+System Information Viewer
+USB TurboCharger
+Support for Q-Flash Plus
+Support for Q-Flash
+Support for Xpress Install
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Bundled Software summary 
+Norton® Internet Security (OEM version)
+cFosSpeed
+XSplit Gamecaster + Broadcaster (12 months license)
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Operating System summary 
+Support for Windows 10 64-bit
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Form Factor (form factor) summary 
+The Form Factor (form factor) on Z490 AORUS MASTER  (rev. 1.x):
+The Form Factor (form factor) on Z490 AORUS MASTER  (rev. 1.x):
+ATX Form Factor (form factor) is 30.5cm x 24.4cm
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)
+These are the Remark summary 
+Due to different Linux support condition provided by chipset vendors, please download Linux driver from chipset vendors' website or 3rd party website.Most hardware/software vendors may no longer offer drivers to support Win9X/ME/2000/XP. If drivers are available from the vendors, we will update them on the GIGABYTE website.
+-----------------------
+motherboard name : Z490 AORUS MASTER  (rev. 1.x)

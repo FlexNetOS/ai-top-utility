@@ -1,0 +1,164 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                       AI TOP RUST REWRITE                                 ║
+║                    QUICK REFERENCE CARD v1.0                              ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ PROJECT SNAPSHOT                                                          │
+├───────────────────────────────────────────────────────────────────────────┤
+│ Scope:        Python (99 files, 80K LOC) → Rust monorepo + Tauri GUI     │
+│ Team:         1-4 engineers (1 team: 24 weeks, 3 teams: 8 weeks)         │
+│ Budget:       ~100 human days → ~32 CC+gstack hours (19x compression)    │
+│ Start Date:   Week 0 (when approved)                                     │
+│ Target Ship:  v1.0 in Week 24-28 (6-7 months)                           │
+│ Status:       Ready for Planning Phase                                   │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ 8-PHASE SPRINT CALENDAR                                                   │
+├─────────────┬───────────┬────────────────────────────────────────────────┤
+│ PHASE       │ WEEKS     │ DELIVERABLE                                    │
+├─────────────┼───────────┼────────────────────────────────────────────────┤
+│ 1: Infra    │ Weeks 1-2 │ M1: cargo build ✓                              │
+│ 2: Sysmon   │ Weeks 3-5 │ M2: GET /api/system/stats ✓                   │
+│ 3: ML-PyO3  │ Weeks 6-8 │ M3: Start training via API ✓                  │
+│ 4: ML-Frame │ Weeks 9-11│ M4: Multi-GPU training + export ✓             │
+│ 5: Chat/RAG │ Weeks 12-14│ M5: Chat + RAG retrieval ✓                   │
+│ 6: Config   │ Weeks 15-17│ M6: ai-top setup automation ✓                │
+│ 7: Tauri GUI│ Weeks 18-21│ M7: Dashboard + training UI ✓                │
+│ 8: Release  │ Weeks 22-28│ M8: v1.0 shipped (feature parity) ✓          │
+└─────────────┴───────────┴────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ EFFORT BREAKDOWN                                                          │
+├──────────────────┬─────────────────┬──────────────────┬──────────────────┤
+│ Task Type        │ Human Days      │ CC+gstack Hours  │ Compression      │
+├──────────────────┼─────────────────┼──────────────────┼──────────────────┤
+│ Boilerplate      │ 15              │ 1                │ 100x             │
+│ Feature Impl     │ 50              │ 1.5              │ 30x              │
+│ Testing          │ 20              │ 0.75             │ 50x              │
+│ Architecture     │ 10              │ 4                │ 5x               │
+│ Documentation    │ 4               │ 1.5              │ 8x               │
+│ DevOps           │ 2               │ 1                │ 5x               │
+├──────────────────┼─────────────────┼──────────────────┼──────────────────┤
+│ TOTAL            │ 101 days        │ 32 hours         │ ~19x             │
+└──────────────────┴─────────────────┴──────────────────┴──────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ TIMELINE SCENARIOS                                                        │
+├───────────────────────────────────────────────────────────────────────────┤
+│ 1 Engineer:        24-28 weeks (6-7 months)                              │
+│ 2 Engineers:       10-12 weeks (2.5-3 months) [50% parallelization]     │
+│ 3+ Engineers:      8-10 weeks (2-2.5 months) [70% parallelization]      │
+│                                                                           │
+│ With CC+gstack:    1-2 weeks per sprint (3-4x productivity boost)       │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ TOP RISKS (MUST MITIGATE EARLY)                                           │
+├─────────────────────────────────────────────────────────────────────────┤
+│ 🔴 PyO3 Version Incompatibility (HIGH/HIGH)                             │
+│    → ACTION: Pin PyO3 versions in Phase 1; test LLaMA-Factory Day 1     │
+│    → IMPACT: +2-4 weeks if unfixable (fallback to Candle)              │
+│                                                                         │
+│ 🔴 Megatron-DeepSpeed Complexity (HIGH/HIGH)                           │
+│    → ACTION: Start single-GPU only; wrap essential functions            │
+│    → IMPACT: -2 weeks (scope reduction) or +3 weeks (external service) │
+│                                                                         │
+│ 🟠 GPU Driver Parsing (HIGH/MEDIUM)                                    │
+│    → ACTION: Real hardware testing by Week 5 (NVIDIA + AMD)             │
+│    → IMPACT: +1 week if fallback needed (nvidia-smi wrapper)           │
+│                                                                         │
+│ 🟠 Memory Leaks in PyO3 (MEDIUM/HIGH)                                  │
+│    → ACTION: Valgrind + Address Sanitizer from Phase 3                 │
+│    → IMPACT: +2-3 weeks if major leaks found                           │
+│                                                                         │
+│ 🟠 Conda Setup Failures (HIGH/MEDIUM)                                  │
+│    → ACTION: Test on Ubuntu 22.04/24.04, macOS, WSL2 by Phase 6        │
+│    → IMPACT: +1-2 weeks if environment setup breaks on multiple OSes   │
+└─────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ CRITICAL PATH (Longest Sequential Chain)                                 │
+├───────────────────────────────────────────────────────────────────────────┤
+│ 1 (2w) → 2 (3w) → 3 (3w) → 4 (3w) → 6 (3w) → 7 (4w) → 8 (6w) = 24 weeks
+│                                                                           │
+│ Parallelization gains (realistic):                                       │
+│   • Phase 5 (Chat) starts after Phase 2 only       → saves 2-3 weeks    │
+│   • Phase 6 (Config) starts once Phase 1 stable    → saves 1 week       │
+│   • Phase 7 (GUI) starts once Phase 2 endpoints OK → saves 1-2 weeks    │
+│                                                                           │
+│ → Realistic timeline: 20-22 weeks (with smart parallelization)          │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ KEY ARCHITECTURAL DECISIONS                                               │
+├───────────────────────────────────────────────────────────────────────────┤
+│ ✓ GUI:          Tauri v2 (Rust-native, 50x smaller than Electron)       │
+│ ✓ ML Bindings:  PyO3 (reuse Python ecosystem; fallback: Candle)         │
+│ ✓ Database:     SQLite (embedded, zero-config; scale: Qdrant)           │
+│ ✓ Config:       TOML (idiomatic Rust)                                   │
+│ ✓ Async:        Tokio (industry standard)                               │
+│ ✓ Vector DB:    sqlite-vec (primary) + Qdrant (scaling option)          │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ TEAM STRUCTURE (RECOMMENDED)                                              │
+├───────────────────────────────────────────────────────────────────────────┤
+│ 1 Rust Systems Engineer   → Phases 1-2, 6, 8                             │
+│ 1 PyO3/ML Engineer        → Phases 3-5                                   │
+│ 1 Frontend Engineer       → Phase 7                                       │
+│ 1 QA/DevOps              → Phases 1, 8 (release + testing)               │
+│                                                                           │
+│ Productivity Boost with CC+gstack:                                       │
+│   • Boilerplate: 15 min (vs 4 hours) = 16x                              │
+│   • Features: 30 min (vs 1 week) = 10x                                  │
+│   • Testing: 15 min (vs 1 day) = 32x                                    │
+│   → Each engineer becomes 3-4x more productive                           │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ SUCCESS METRICS AT v1.0                                                   │
+├───────────────────────────────────────────────────────────────────────────┤
+│ ✓ Feature Parity:    100% (all Python features)                          │
+│ ✓ Test Coverage:     80%+ (unit + integration + E2E)                    │
+│ ✓ Performance:       20%+ faster than Python baseline                    │
+│ ✓ Memory Usage:      30-40% of equivalent Python process                │
+│ ✓ P99 Latency:       <500ms (API endpoints)                             │
+│ ✓ Security Issues:   0 critical (audit complete)                        │
+│ ✓ Documentation:     95%+ API docs + setup guides                       │
+│ ✓ Uptime (24h):      99.9%+ (no crashes/leaks)                          │
+└───────────────────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│ PHASE 1 KICKOFF CHECKLIST (Weeks 1-2)                                    │
+├───────────────────────────────────────────────────────────────────────────┤
+│ Week 0 (This Week):                                                     │
+│   □ Finalize team + assign phase leads                                   │
+│   □ Set up GitHub repo + branch protection                              │
+│   □ Create Cargo workspace scaffold                                      │
+│   □ Review + finalize crate structure                                    │
+│   □ Schedule Phase 1 kickoff meeting                                     │
+│                                                                           │
+│ Weeks 1-2 (Phase 1 Execution):                                           │
+│   □ Build monorepo with 5 crates (core, sysmon, ml, api, config)        │
+│   □ Generate all DTO types (serde + TOML)                               │
+│   □ Set up tracing/logging infrastructure                               │
+│   □ Configure GitHub Actions CI/CD                                       │
+│   □ M1 CHECKPOINT: cargo build succeeds ✓                               │
+│                                                                           │
+│ Expected Output:                                                         │
+│   • Cargo.toml with workspace configuration                             │
+│   • 5 crate directories with stubs                                      │
+│   • GitHub Actions workflow passing                                      │
+│   • README explaining crate structure                                    │
+└───────────────────────────────────────────────────────────────────────────┘
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║ For detailed spec → /home/flexnetos/ai-top/ROADMAP.md (799 lines)       ║
+║ For summary → /home/flexnetos/ai-top/ROADMAP_SUMMARY.txt                 ║
+║                                                                           ║
+║ Document Status: Ready for Leadership Review & Approval                  ║
+║ Author: Hive Team Charlie (Haiku Queen Coordinator)                      ║
+║ Date: 2026-04-02                                                        ║
+╚═══════════════════════════════════════════════════════════════════════════╝

@@ -1,0 +1,218 @@
+This is the specification (spec) of B650 GAMING X  (rev. 1.5) board
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the CPU summary 
+AMD Socket AM5, support for:
+AMD Ryzen™ 7000/ Ryzen™ 8000 Series Processors
+
+
+(Please refer "CPU Support List" for more information.)
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Chipset summary 
+AMD B650
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Memory summary (maximum / max. memory) 
+Support for DDR5 8000(OC)/ 7800(OC)/ 7600(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5600(OC)/ 5200/ 4800/ 4400 MT/s memory modules (maximum memory / max. memory) 
+4 x DDR5 DIMM sockets supporting up to 192 GB (48 GB single DIMM capacity) of system memory
+Dual channel memory architecture
+Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules
+Support for AMD EXtended Profiles for Overclocking (AMD EXPO™) and Extreme Memory Profile (XMP) memory module
+
+(The CPU and memory configuration may affect the supported memory types, data rate (speed), and number of DRAM modules, please refer to "Memory Support List" on GIGABYTE's website for more information.)
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Onboard Graphics summary 
+Integrated Graphics Processor with AMD Radeon™ Graphics support:
+
+1 x DisplayPort, supporting a maximum resolution of 3840x2160@144 Hz
+* Support for DisplayPort 1.4 version and HDR.
+1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz
+* Support for HDMI 2.1 version and HDCP 2.3.
+** Support for native HDMI 2.1 TMDS compatible ports.
+
+(Graphics specifications may vary depending on CPU support.)
+B650 GAMING X  (rev. 1.5) totally have 1 DisplayPort
+B650 GAMING X  (rev. 1.5) totally have 1 HDMI
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Audio summary 
+Realtek® Audio CODEC
+High Definition Audio
+2/4/5.1/7.1-channel
+* You can change the functionality of an audio jack using the audio software. To
+configure 7.1-channel audio, access the audio software for audio settings.
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the LAN summary 
+Realtek® 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps)
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Expansion Slots summary 
+1 x PCI Express x16 slot (PCIEX16), integrated in the CPU:
+
+AMD Ryzen™ 7000 Series Processors support PCIe 4.0 x16 mode
+AMD Ryzen™ 8000 Series-Phoenix 1 Processors support PCIe 4.0 x8 mode*
+* Only for PCB rev. 1.5 or later.
+AMD Ryzen™ 8000 Series-Phoenix 2 Processors support PCIe 4.0 x4 mode*
+* Only for PCB rev. 1.5 or later.
+** The PCIEX16 slot can only support a graphics card or an NVMe SSD. If only one graphics card is to be installed, be sure to install it in the PCIEX16 slot.
+
+Chipset:
+
+2 x PCI Express x16 slots, supporting PCIe 3.0 and running at x1 (PCIEX1_1/2)
+B650 GAMING X  (rev. 1.5) totally have 3 PCI Express
+B650 GAMING X  (rev. 1.5) totally have 3 PCI Express X16
+B650 GAMING X  (rev. 1.5) totally have 0 PCI Express X1 
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Storage Interface summary 
+M.2 connector (M.2 slots & m.2 slots support SSD): 
+1 x M.2 connector (M.2 slots & m.2 slots)  (M2A_CPU), integrated in the CPU, supporting Socket 3, M key, type 25110/22110/2580/2280 SSDs:
+
+AMD Ryzen™ 7000 Series Processors support PCIe 4.0 x4/x2 SSDs (PCB rev. 1.0/1.1)
+AMD Ryzen™ 7000 Series Processors support PCIe 5.0 x4/x2 SSDs (PCB rev. 1.2/1.3/1.4/1.5)
+AMD Ryzen™ 8000 Series-Phoenix 1 Processors support PCIe 4.0 x4/x2 SSDs*
+* Only for PCB rev. 1.5 or later.
+AMD Ryzen™ 8000 Series-Phoenix 2 Processors support PCIe 4.0 x4/x2 SSDss*
+* Only for PCB rev. 1.5 or later.
+
+1 x M.2 connector (M.2 slots & m.2 slots)  (M2B_CPU), integrated in the CPU, supporting Socket 3, M key, type 25110/22110/2580/2280 SSDs:
+
+AMD Ryzen™ 7000 Series Processors support PCIe 4.0 x4/x2 SSDs
+AMD Ryzen™ 8000 Series-Phoenix 1 Processors support PCIe 4.0 x4/x2 SSDs*
+* Only for PCB rev. 1.5 or later.
+AMD Ryzen™ 8000 Series-Phoenix 2 Processors support PCIe 4.0 x2 SSDs*
+* Only for PCB rev. 1.5 or later.
+
+Chipset:
+
+1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 25110/22110/2280 PCIe 4.0 x4/x2 SSD support) (M2C_SB)
+
+4 x SATA 6Gb/s connectors
+RAID 0, RAID 1, and RAID 10 support for NVMe SSD storage devices
+RAID 0, RAID 1, and RAID 10 support for SATA storage devices
+B650 GAMING X  (rev. 1.5) totally have 3 M.2 connector (M.2 slots & m.2 slots) 
+B650 GAMING X  (rev. 1.5) totally have 4 SATA connector
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the USB summary 
+CPU:
+
+1 x USB Type-A (type c)® port on the back panel, with USB 3.2 Gen 2 support
+1 x USB 3.2 Gen 2 Type-A (type a) port (red) on the back panel
+1 x USB 3.2 Gen 1 port on the back pane
+
+CPU + USB 2.0 Hub:
+
+3 x USB 2.0/1.1 ports on the back pane
+
+Chipset:
+
+1 x USB Type-A (type c)® port with USB 3.2 Gen 2x2 support, available through the
+internal USB header
+4 x USB 3.2 Gen 1 ports (2 ports on the back panel, 2 ports available through
+the internal USB header)
+4 x USB 2.0/1.1 ports available through the internal USB headers
+B650 GAMING X  (rev. 1.5) totally have 15 USB
+B650 GAMING X  (rev. 1.5) totally have 5 USB 3.2 Gen 1
+B650 GAMING X  (rev. 1.5) totally have 3 USB 3.2 Gen 2
+B650 GAMING X  (rev. 1.5) totally have 0 USB 3.1 Gen 1
+B650 GAMING X  (rev. 1.5) totally have 0 USB 3.1 Gen 2
+B650 GAMING X  (rev. 1.5) totally have 7 USB 2.0/1.1
+B650 GAMING X  (rev. 1.5) totally have 1 Type-A (type a)
+B650 GAMING X  (rev. 1.5) totally have 2 Type-A (type c)
+B650 GAMING X  (rev. 1.5) totally have 0 USB 3.2 Gen 1 Type-A (type a) 
+B650 GAMING X  (rev. 1.5) totally have 0 USB 3.2 Gen 1 Type-A (type c) 
+B650 GAMING X  (rev. 1.5) totally have 1 USB 3.2 Gen 2 Type-A (type a) 
+B650 GAMING X  (rev. 1.5) totally have 2 USB 3.2 Gen 2 Type-A (type c) 
+B650 GAMING X  (rev. 1.5) totally have 0 USB 3.1 Gen 1 Type-A (type a) 
+B650 GAMING X  (rev. 1.5) totally have 0 USB 3.1 Gen 1 Type-A (type c) 
+B650 GAMING X  (rev. 1.5) totally have 0 USB 3.1 Gen 2 Type-A (type a) 
+B650 GAMING X  (rev. 1.5) totally have 0 USB 3.1 Gen 2 Type-A (type c) 
+B650 GAMING X  (rev. 1.5) totally have 0 USB 2.0/1.1 Type-A (type a) 
+B650 GAMING X  (rev. 1.5) totally have 0 USB 2.0/1.1 Type-A (type c) 
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Internal I/O Connectors summary 
+1 x 24-pin ATX main power connector
+1 x 8-pin ATX 12V power connector
+1 x 4-pin ATX 12V power connector
+1 x CPU fan header
+1 x CPU fan/water cooling pump header
+2 x system fan headers
+1 x system fan/water cooling pump header
+2 x addressable LED strip headers
+2 x RGB LED strip headers
+1 x CPU cooler LED strip/RGB LED strip header
+3 x M.2 Socket 3 connectors
+4 x SATA 6Gb/s connectors
+1 x front panel header
+1 x front panel audio header
+1 x USB Type-A (type c)® header, with USB 3.2 Gen 2x2 support
+1 x USB 3.2 Gen 1 header
+2 x USB 2.0/1.1 headers
+1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0/
+GC-TPM2.0 SPI V2 module only)
+1 x serial port header
+1 x reset button
+1 x reset jumper
+1 x Clear CMOS jumper
+B650 GAMING X  (rev. 1.5) totally have 5 fan header
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Back Panel Connectors summary 
+1 x Q-Flash Plus button
+1 x DisplayPort
+1 x HDMI port
+1 x USB Type-A (type c)® port, with USB 3.2 Gen 2 support
+1 x USB 3.2 Gen 2 Type-A (type a) port (red)
+3 x USB 3.2 Gen 1 ports
+3 x USB 2.0/1.1 ports
+1 x RJ-45 port
+3 x audio jacks
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the I/O Controller summary 
+iTE® I/O Controller Chip
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the H/W Monitoring summary 
+Voltage detection
+Temperature detection
+Fan speed detection
+Water cooling flow rate detection
+Fan fail warning
+Fan speed control
+* Whether the fan (pump) speed control function is supported will depend on the fan (pump) you install.
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the BIOS summary 
+1 x 256 Mbit flash
+Use of licensed AMI UEFI BIOS
+PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Unique Features summary 
+Support for GIGABYTE Control Center (GCC)
+* Available applications in GCC may vary by  motherboard model. Supported functions of each application may also vary depending on motherboard specifications.
+Support for Q-Flash
+Support for Q-Flash Plus
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Bundled Software summary 
+Norton® Internet Security (OEM version)
+LAN bandwidth management software
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Operating System summary 
+Support for Windows 11 64-bit
+Support for Windows 10 64-bit
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)
+These are the Form Factor (form factor) summary 
+The Form Factor (form factor) on B650 GAMING X  (rev. 1.5):
+The Form Factor (form factor) on B650 GAMING X  (rev. 1.5):
+ATX Form Factor (form factor) is 30.5cm x 24.4cm
+-----------------------
+motherboard name : B650 GAMING X  (rev. 1.5)

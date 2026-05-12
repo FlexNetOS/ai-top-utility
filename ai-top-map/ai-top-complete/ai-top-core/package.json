@@ -1,0 +1,24 @@
+{
+  "name": "gigabyte-ai-top-utility",
+  "version": "4.2.1",
+  "description": "Gigabyte AI Top Utility",
+  "main": "./out/main/index.js",
+  "author": "www.gigabyte.com",
+  "homepage": "https://www.gigabyte.com",
+  "dependencies": {
+    "@electron-toolkit/preload": "^3.0.0",
+    "@electron-toolkit/utils": "^3.0.0",
+    "axios": "^1.6.8",
+    "chart.js": "^3.1.0",
+    "cross-env": "^7.0.3",
+    "electron-updater": "^6.1.8",
+    "material-icons": "^1.13.12",
+    "pinia": "^2.1.7",
+    "qrcode-vue3": "^1.7.1",
+    "sass": "^1.71.1",
+    "sudo-prompt": "^9.2.1",
+    "uuid": "^9.0.1",
+    "vue-chart-3": "^3.1.8",
+    "vue3-pdfjs": "^0.1.6"
+  }
+}

@@ -1,0 +1,212 @@
+This is the specification (spec) of Z690 AORUS ELITE AX  (rev. 1.x) board
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the CPU summary 
+LGA1700 socket: Support for the 14th, 13th, and 12th Generation Intel® Core™, Pentium® Gold and Celeron® Processors*
+L3 cache varies with CPU
+
+* Please refer to "CPU Support List" for more information.
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Chipset summary 
+Intel® Z690 Express Chipset
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Memory summary (maximum / max. memory) 
+Support for DDR5 6000(O.C.) / 5800(O.C.) / 5600(O.C.) / 5400(O.C.) / 5200(O.C.) / 4800 / 4000 MHz memory modules (maximum memory / max. memory) 
+4 x DDR5 DIMM sockets supporting up to 192 GB (48 GB single DIMM capacity) of system memory
+Dual channel memory architecture
+Support for ECC Un-buffered DIMM 1Rx8/2Rx8 memory modules (operate in non-ECC mode)
+Support for non-ECC Un-buffered DIMM 1Rx8/2Rx8/1Rx16 memory modules
+Support for Extreme Memory Profile (XMP) memory modules
+
+(The CPU and memory configuration may affect the supported memory types, data rate (speed), and number of DRAM modules, please refer to "Memory Support List" for more information.)
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Onboard Graphics summary 
+Integrated Graphics Processor-Intel® HD Graphics support:
+1 x HDMI port, supporting a maximum resolution of 4096x2160@60 Hz
+* Support for HDMI 2.1 version and HDCP 2.3.
+** Support native HDMI 2.1 TMDS compatible ports.
+1 x DisplayPort, supporting a maximum resolution of 4096x2304@60 Hz
+* Support for DisplayPort 1.2 version and HDCP 2.3 
+
+(Graphics specifications may vary depending on CPU support.)
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 1 DisplayPort
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 1 HDMI
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Audio summary 
+Realtek® ALC1220-VB CODEC
+* The back panel line out jack supports DSD audio.
+High Definition Audio
+2/4/5.1/7.1-channel
+* You can change the functionality of an audio jack using the audio software. To configure 7.1-channel audio, access the audio software for audio settings.
+Support for S/PDIF Out
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the LAN summary 
+Realtek® 2.5GbE LAN chip (2.5 Gbps/1 Gbps/100 Mbps)
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+The Wireless Communication module (Wi-Fi, wifi):
+WIFI & Wi-Fi & wifi : WIFI Module
+
+WIFI a, b, g, n, ac, ax, supporting 2.4/5 GHz Dual-Band
+BLUETOOTH 5.2
+Support for 11ax 160MHz wireless standard and up to 2.4 Gbps data rate
+* Actual data rate may vary depending on environment and equipment.
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Expansion Slots summary 
+1 x PCI Express x16 slot, running at x16 (PCIEX16)
+* For optimum performance, if only one PCI Express graphics card is to be installed, be sure to install it in the PCIEX16 slot.
+(The PCIEX16 slot conforms to PCI Express 5.0 standard.)
+2 x PCI Express x16 slots, running at x4 (PCIEX4_1, PCIEX4_2)
+(The PCIEX4 slots conform to PCI Express 3.0 standard.)
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 3 PCI Express
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 3 PCI Express X16
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 PCI Express X1 
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Storage Interface summary 
+M.2 connector (M.2 slots & m.2 slots support SSD): 
+CPU:
+
+1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 2260/2280/22110 PCIe 4.0 x4/x2 SSD support) (M2A_CPU)
+
+Chipset:
+
+1 x M.2 connector (M.2 slots & m.2 slots)  (Socket 3, M key, type 2260/2280/22110 SATA and PCIe 4.0 x4/x2 SSD support) (M2M_SB)
+2 x M.2 connector (M.2 slots & m.2 slots) s (Socket 3, M key, type 2260/2280/22110 PCIe 4.0 x4/x2 SSD support) (M2Q_SB/M2P_SB)
+6 x SATA 6Gb/s connectors
+
+Support for RAID 0, RAID 1, RAID 5, and RAID 10
+* Refer to "2-7 Internal Connectors," for the installation notices for the M.2 and SATA connectors.
+Intel® Optane™ Memory Ready
+* System acceleration with Intel® Optane™ Memory can only be enabled on the M.2 connector (M.2 slots & m.2 slots) s supported by the Chipset.
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 4 M.2 connector (M.2 slots & m.2 slots) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 6 SATA connector
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the USB summary 
+Chipset:
+
+1 x USB Type-A (type c)® port on the back panel, with USB 3.2 Gen 2x2 support
+1 x USB Type-A (type c)® port with USB 3.2 Gen 2 support, available through the internal USB header
+2 x USB 3.2 Gen 2 Type-A (type a) ports (red) on the back panel
+5 x USB 3.2 Gen 1 ports (3 ports on the back panel, 2 ports available through the internal USB header)
+
+
+Chipset+2 USB 2.0 Hub:
+
+ 8 x USB 2.0/1.1 ports (4 ports on the back panel, 4 ports available through the internal USB headers)
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 17 USB
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 5 USB 3.2 Gen 1
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 4 USB 3.2 Gen 2
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 3.1 Gen 1
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 3.1 Gen 2
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 8 USB 2.0/1.1
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 2 Type-A (type a)
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 2 Type-A (type c)
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 3.2 Gen 1 Type-A (type a) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 3.2 Gen 1 Type-A (type c) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 2 USB 3.2 Gen 2 Type-A (type a) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 2 USB 3.2 Gen 2 Type-A (type c) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 3.1 Gen 1 Type-A (type a) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 3.1 Gen 1 Type-A (type c) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 3.1 Gen 2 Type-A (type a) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 3.1 Gen 2 Type-A (type c) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 2.0/1.1 Type-A (type a) 
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 0 USB 2.0/1.1 Type-A (type c) 
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Internal I/O Connectors summary 
+1 x 24-pin ATX main power connector
+1 x 8-pin ATX 12V power connector
+1 x 4-pin ATX 12V power connector
+1 x CPU fan header
+1 x water cooling CPU fan header
+3 x system fan headers
+1 x system fan/water cooling pump header
+2 x addressable LED strip headers
+2 x RGB LED strip headers
+4 x M.2 Socket 3 connectors
+6 x SATA 6Gb/s connectors
+1 x front panel header
+1 x front panel audio header
+1 x USB Type-A (type c)® header, with USB 3.2 Gen 2 support
+1 x USB 3.2 Gen 1 header
+2 x USB 2.0/1.1 headers
+2 x Thunderbolt™ add-in card connectors
+1 x Trusted Platform Module header (For the GC-TPM2.0 SPI/GC-TPM2.0 SPI 2.0 module only)
+1 x reset button
+1 x Q-Flash Plus button
+1 x reset jumper
+1 x Clear CMOS jumper
+
+＊All fan headers are subject to support AIO_Pump, Pump and high performance fan with the capability of delivering up to 2A/12V @ 24W.
+Z690 AORUS ELITE AX  (rev. 1.x) totally have 6 fan header
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Back Panel Connectors summary 
+1 x USB Type-A (type c)® port, with USB 3.2 Gen 2x2 support
+2 x USB 3.2 Gen 2 Type-A (type a) ports (red)
+3 x USB 3.2 Gen 1 ports
+4 x USB 2.0/1.1 ports
+2 x SMA antenna connectors (2T2R)
+1 x HDMI port
+1 x DisplayPort
+1 x RJ-45 port
+1 x optical S/PDIF Out connector
+2 x audio jacks
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the I/O Controller summary 
+iTE® I/O Controller Chip
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the H/W Monitoring summary 
+Voltage detection
+Temperature detection
+Fan speed detection
+Water cooling flow rate detection
+Fan fail warning
+Fan speed control
+* Whether the fan (pump) speed control function is supported will depend on the fan (pump) you install.
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the BIOS summary 
+1 x 256 Mbit flash
+Use of licensed AMI UEFI BIOS
+PnP 1.0a, DMI 2.7, WfM 2.0, SM BIOS 2.7, ACPI 5.0
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Unique Features summary 
+Support for APP Center
+* Available applications in APP Center may vary by motherboard model. Supported functions of each application may also vary depending on motherboard specifications.
+@BIOS
+EasyTune
+RGB Fusion
+Smart Backup
+System Information Viewer
+Support for Q-Flash Plus
+Support for Q-Flash
+Support for Xpress Install
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Bundled Software summary 
+Norton® Internet Security (OEM version)
+Realtek® Gaming LAN Bandwidth Control Utility
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Operating System summary 
+Support for Windows 11 64-bit
+Support for Windows 10 64-bit
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)
+These are the Form Factor (form factor) summary 
+The Form Factor (form factor) on Z690 AORUS ELITE AX  (rev. 1.x):
+The Form Factor (form factor) on Z690 AORUS ELITE AX  (rev. 1.x):
+ATX Form Factor (form factor) is 30.5cm x 24.4cm
+-----------------------
+motherboard name : Z690 AORUS ELITE AX  (rev. 1.x)

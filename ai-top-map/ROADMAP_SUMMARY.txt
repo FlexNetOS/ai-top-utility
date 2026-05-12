@@ -1,0 +1,241 @@
+================================================================================
+AI TOP RUST REWRITE — ROADMAP SUMMARY & KEY INSIGHTS
+================================================================================
+
+PROJECT SCOPE
+  Source: Python (99 files, 80K LOC) + Electron (4 JS files) + Shell (19 files)
+  Target: Rust workspace with Tauri GUI + PyO3 bindings for ML frameworks
+  Timeline: 24-28 weeks (1 team) → 8-10 weeks (3+ engineers with parallelization)
+  
+================================================================================
+8-PHASE SPRINT PLAN
+================================================================================
+
+PHASE 1: Foundation & Workspace Setup (Weeks 1–2)
+  • Create 5-crate monorepo (core, sysmon, ml, api, config)
+  • All types + serde models for system DTOs
+  • GitHub Actions CI/CD
+  ✓ M1 Checkpoint: cargo build succeeds
+  Compression: ~100x (boilerplate-heavy)
+
+PHASE 2: System Monitoring Core (Weeks 3–5)
+  • CPU, GPU (NVIDIA/AMD), RAM, SSD, network monitoring
+  • REST API endpoints for all metrics
+  • SQLite logging + historical data
+  ✓ M2 Checkpoint: GET /api/system/stats returns full snapshot
+  Compression: ~28x
+
+PHASE 3: ML Training — PyO3 Bindings (Weeks 6–8)
+  • PyO3 + maturin integration with LLaMA-Factory
+  • Training session state machine
+  • WebSocket streaming of loss metrics
+  ✓ M3 Checkpoint: Start training jobs via Rust API
+  Risk: PyO3 version incompatibility (HIGH) → PIN VERSIONS EARLY
+  Compression: ~20x
+
+PHASE 4: Multi-Framework Support (Weeks 9–11)
+  • Video-LLaVA + Megatron-DeepSpeed bindings
+  • Training option builder (20+ parameters)
+  • Model conversion (checkpoint → ONNX/safetensors)
+  ✓ M4 Checkpoint: Train LLaVA on multi-GPU; export portable model
+  Compression: ~18x
+
+PHASE 5: Chat & Inference (Weeks 12–14)
+  • Chat session management (SQLite)
+  • Text/image-to-text inference (llama.cpp + PyO3)
+  • RAG pipeline + vector DB (sqlite-vec)
+  • Server-Sent Events streaming
+  ✓ M5 Checkpoint: Chat endpoint streams LLM responses; RAG retrieves docs
+  Compression: ~24x
+
+PHASE 6: Configuration & Model Management (Weeks 15–17)
+  • TOML config schema + validation
+  • Model registry (HuggingFace integration)
+  • Model download + progress tracking
+  • Environment validation (CUDA/ROCm detection)
+  • Conda environment auto-setup
+  ✓ M6 Checkpoint: ai-top setup → auto-prepare environment
+  Risk: Conda failures on WSL2/macOS (HIGH) → TEST ON ALL PLATFORMS
+  Compression: ~22x
+
+PHASE 7: Tauri GUI (Weeks 18–21)
+  • Tauri v2 + React/TypeScript frontend
+  • System stats dashboard (live charts)
+  • Training UI (job queue, loss curves, ETA)
+  • Chat interface (streaming responses)
+  • Model manager + settings panel
+  ✓ M7 Checkpoint: Tauri app replaces Electron; all major features visible
+  Compression: ~26x
+
+PHASE 8: Testing, Optimization & Release (Weeks 22–28)
+  • Integration test suite (100+ tests)
+  • E2E tests (real training runs, RAG queries)
+  • Performance benchmarking (target: 20%+ faster than Python)
+  • Memory profiling + security audit
+  • Documentation + release notes
+  ✓ M8 Checkpoint: v1.0 ships with feature parity + perf improvement
+  Compression: ~11x (testing-heavy)
+
+================================================================================
+CRITICAL PATH ANALYSIS
+================================================================================
+
+Sequential: 1 → 2 → 3 → 4 → 6 → 7 → 8 (24 weeks minimum)
+Parallelization opportunities:
+  • PHASE 5 (Chat) can start after PHASE 2 only → saves 2-3 weeks
+  • PHASE 6 (Config) can start early once PHASE 1 stable → saves 1 week
+  • PHASE 7 (GUI) once PHASE 2 endpoints stable → saves 1-2 weeks
+Realistic timeline: 20-22 weeks (with parallelization)
+
+================================================================================
+EFFORT SUMMARY
+================================================================================
+
+Total Project: ~100 days human team → ~32 hours CC+gstack (19x compression)
+
+By Phase:
+  Phase 1: 4.5 days / 2 hours (100x compression) — boilerplate
+  Phase 2: 14 days / 3 hours (28x compression) — feature impl
+  Phase 3: 10 days / 3 hours (20x compression) — complex FFI
+  Phase 4: 13 days / 3.5 hours (18x compression) — framework diversity
+  Phase 5: 10 days / 2.5 hours (24x compression) — async/streaming
+  Phase 6: 11 days / 3 hours (22x compression) — automation + research
+  Phase 7: 15 days / 3.5 hours (26x compression) — UI/UX
+  Phase 8: 23 days / 8.5 hours (11x compression) — testing
+
+By Task Type:
+  Boilerplate: 15 days / 1 hour (100x)
+  Feature Implementation: 50 days / 1.5 hours (30x)
+  Testing: 20 days / 0.75 hours (50x)
+  Architecture/Design: 10 days / 4 hours (5x)
+  Documentation: 4 days / 1.5 hours (8x)
+  DevOps/CI: 2 days / 1 hour (5x)
+
+================================================================================
+TOP RISKS & MITIGATIONS
+================================================================================
+
+CRITICAL (Must mitigate in Phase 1-3):
+
+1. PyO3 + LLaMA-Factory Version Skew
+   Probability: HIGH  Impact: HIGH
+   Mitigation: Pin versions early; test integration on day 1 of Phase 3
+
+2. Megatron-DeepSpeed Distributed Training Complexity
+   Probability: HIGH  Impact: HIGH
+   Mitigation: Start single-node only; wrap essential functions; add extensive logging
+
+3. GPU Driver Parsing Inconsistencies
+   Probability: HIGH  Impact: MEDIUM
+   Mitigation: Test on real NVIDIA/AMD hardware by week 5; fallback to nvidia-smi
+
+4. Memory Leaks in PyO3 Bindings
+   Probability: MEDIUM  Impact: HIGH
+   Mitigation: Run Valgrind + Address Sanitizer from Phase 3; stress test 100+ runs
+
+5. Conda Environment Setup Failures
+   Probability: HIGH  Impact: MEDIUM
+   Mitigation: Test on Ubuntu 22.04/24.04, macOS, WSL2 by Phase 6; bundle fallback scripts
+
+================================================================================
+RESOURCE ALLOCATION
+================================================================================
+
+Team Structure (Recommended):
+  • 1 Rust Systems Engineer (Phases 1-2, 6, 8)
+  • 1 PyO3/ML Engineer (Phases 3-5)
+  • 1 Frontend Engineer (Phase 7)
+  • 1 QA/DevOps (Phases 1, 8)
+
+With CC+gstack:
+  • Each engineer becomes 3-4x more productive
+  • Boilerplate work: 15 min (vs 4 hours)
+  • Feature impl: 30 min (vs 1 week)
+  • Testing: 15 min (vs 1 day)
+
+Skill Requirements by Phase:
+  Phase 1: Cargo, serde, tracing
+  Phase 2: procfs, sysfs, actix-web
+  Phase 3-4: PyO3, maturin, transformers, torch
+  Phase 5: tokio, async, sqlite-vec, llama.cpp
+  Phase 6: TOML, automation, conda/shell
+  Phase 7: Tauri, React, TypeScript, CSS
+  Phase 8: Criterion, Valgrind, security auditing
+
+================================================================================
+KEY ARCHITECTURAL DECISIONS
+================================================================================
+
+✓ GUI Framework: Tauri (vs Electron)
+  Why: Rust-native, cross-platform, 50x smaller footprint, built-in Rust backend
+
+✓ ML Bindings: PyO3 (vs Candle)
+  Why: Reuse existing Python ecosystem; proven in production; fallback to Candle if needed
+
+✓ Database: SQLite (vs PostgreSQL)
+  Why: Embedded, zero-config, sufficient for single-instance monitoring; scale to Qdrant later
+
+✓ Config Format: TOML (vs YAML/JSON)
+  Why: Rusty idiom, human-readable, less verbose
+
+✓ Async Runtime: Tokio (vs async-std)
+  Why: Industry standard; used by actix-web, tungstenite, most ecosystem
+
+✓ Vector DB: sqlite-vec (primary) + Qdrant (scaling)
+  Why: Embedded simplicity; Qdrant option for horizontal scaling
+
+================================================================================
+SUCCESS METRICS AT v1.0
+================================================================================
+
+Feature Parity: 100% (all features from Python version)
+Test Coverage: 80%+ (unit + integration + E2E)
+Performance: 20%+ faster than Python baseline
+Memory Usage: 30-40% of equivalent Python process
+P99 API Latency: <500ms under normal load
+Security Issues: 0 critical (audit complete)
+Documentation: 95%+ API docs + setup guides
+Uptime (24h soak test): 99.9%+ (no crashes/leaks)
+
+================================================================================
+TIMELINE SCENARIOS
+================================================================================
+
+1 Engineer (100% allocation):
+  → 20-24 weeks (5-6 months)
+
+2 Engineers (50% parallelization):
+  → 10-12 weeks (2.5-3 months)
+
+3+ Engineers (70% parallelization):
+  → 8-10 weeks (2-2.5 months)
+
+With CC+gstack:
+  → 1-2 weeks per sprint (highly productive)
+
+================================================================================
+IMMEDIATE NEXT STEPS (Week 0)
+================================================================================
+
+1. Finalize team + assign phase leads
+2. Set up GitHub repo + branch protection
+3. Create Cargo workspace scaffold (Phase 1)
+4. Review + finalize crate structure
+5. Schedule Phase 1 kickoff
+
+Phase 1 Goals (Weeks 1-2):
+  • Build monorepo with 5 crates
+  • Generate all DTO types (serde + TOML)
+  • Set up tracing/logging
+  • Configure CI/CD (GitHub Actions)
+  ✓ M1: cargo build succeeds
+
+================================================================================
+
+Full roadmap with detailed specs available at:
+/home/flexnetos/ai-top/ROADMAP.md (799 lines)
+
+Document Version: 1.0
+Status: Ready for Planning Phase
+Author: Hive Team Charlie (Haiku Queen Coordinator)
+Date: 2026-04-02
