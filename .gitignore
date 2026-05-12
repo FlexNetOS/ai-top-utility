@@ -79,3 +79,24 @@ logs/
 *.tmp
 *.bak
 *.orig
+
+# Large installer packages (host externally; exceeds GitHub 100MB limit)
+depreciated/
+
+# Compiled native / packaged binaries
+*.so
+*.so.*
+*.dll
+*.dylib
+*.asar
+
+# Video files (host externally; large media)
+*.mp4
+
+# AI TOP extracted bundle: keep source/manifests, drop derived/oversized artifacts
+ai-top-map/ai-top-complete/ai-top-extracted/backend/main2404_extracted/
+ai-top-map/ai-top-complete/ai-top-extracted/app-source/out/
+ai-top-map/ai-top-complete/ai-top-extracted/app-source/resources/scripts/main2404
+
+# ai-top-map: file-tree dump artifacts (source is tracked directly, dumps are redundant)
+ai-top-map/*/[0-9]*-*.txt
