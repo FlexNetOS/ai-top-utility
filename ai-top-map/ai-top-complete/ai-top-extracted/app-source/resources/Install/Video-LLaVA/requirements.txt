@@ -39,7 +39,7 @@ hjson==3.1.0
 httpcore==0.17.3
 httpx==0.24.0
 huggingface-hub==0.24.6
-idna==3.8
+idna==3.15
 iopath==0.1.10
 Jinja2==3.1.6
 joblib==1.4.2
